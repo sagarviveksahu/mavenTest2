@@ -34,7 +34,7 @@
                 <artifactItem>
                   <groupId>com.vsahu</groupId>
                   <artifactId>maven</artifactId>
-                  <version>1.0-20180724.152642-5</version>
+                  <version>1.0-SNAPSHOT</version>
                   <classifier>my-classifier</classifier>
                   <overWrite>true</overWrite>
                   <type>zip</type>
