@@ -53,7 +53,7 @@
             <execution>
                 <configuration>
                     <executable>python</executable>
-                    <workingDirectory>/Users/vsahu/Desktop/mavenproject1/my-maven1/target/scripts/</workingDirectory>
+                    <workingDirectory>/Users/vsahu/Desktop/mavenproject1/my-maven1/target/scripts/maven-1.0-SNAPSHOT/</workingDirectory>
                     <arguments>
                         <argument>a.py</argument>
                     </arguments>    
