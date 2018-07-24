@@ -29,7 +29,7 @@
               <goal>copy</goal>
             </goals>
             <configuration>
-              <outputDirectory>${project.basedir}/target/</outputDirectory>
+              <outputDirectory>${project.basedir}/target/scripts/</outputDirectory>
               <stripVersion>true</stripVersion>
               <artifactItems>
                 <artifactItem>
