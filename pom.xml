@@ -22,7 +22,7 @@
         <artifactId>maven-dependency-plugin</artifactId>
         <executions>
           <execution>
-            <id>copy-scripts</id>
+            <id>copy</id>
             <phase>package</phase>
             <goals>
               <goal>copy</goal>
