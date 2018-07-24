@@ -15,10 +15,41 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-scripts</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.basedir}/target/</outputDirectory>
+              <stripVersion>true</stripVersion>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>com.vsahu</groupId>
+                  <artifactId>maven</artifactId>
+                  <version>1.0-20180724.152642-5</version>
+                  <classifier>my-classifier</classifier>
+                  <overWrite>true</overWrite>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
   <repositories>
     <repository>
       <id>maven-snapshots</id>
-      <url>com/vsahu/maven/1.0-SNAPSHOT/maven-1.0-20180723.050950-3.zip</url>
+      <url>http://localhost:8081/repository/maven-snapshots/</url>
     </repository>
   </repositories>
 </project>
