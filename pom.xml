@@ -29,7 +29,7 @@
               <goal>copy</goal>
             </goals>
             <configuration>
-              <outputDirectory>${project.basedir}/target/scripts/</outputDirectory>
+              <outputDirectory>/Users/vsahu/Desktop/mavenproject1/my-maven1/target/scripts/</outputDirectory>
               <stripVersion>true</stripVersion>
               <artifactItems>
                 <artifactItem>
